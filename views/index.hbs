@@ -1,0 +1,36 @@
+<div class="">
+    <div class="login">
+        <div class="login-l">
+            <img src="..\pic\3.jpg" alt="" srcset="">
+            <!-- <img src="..\pic\.jpg" alt="" srcset=""> -->
+            <div class="h1">Click to
+                <div class="h11">
+                    PROFILE</div>
+            </div>
+        </div>
+        <div class="login-r">
+            <center>
+                <div class="tsp">
+                    <h2><b>P</b>ersonal <b>I</b>nformation </h2>
+                </div>
+            </center>
+            <div class="left">
+
+                <p><b>NAME ::</b> {{myData.Name}} </p>
+
+                <p><b>WORK ::</b> {{myData.Work}}</p>
+
+              
+                <br>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>let openLoginRight = document.querySelector('.h1');
+    let login = document.querySelector('.login');
+
+    openLoginRight.addEventListener('click', function () {
+        login.classList.toggle('open');
+    })</script>

@@ -1,0 +1,39 @@
+{{#with myData.Skill}}
+<div class="">
+    <div class="login">
+        <div class="login-l">
+            <img src="..\pic\3.jpg" alt="" srcset="">
+            <!-- <img src="..\pic\.jpg" alt="" srcset=""> -->
+            <div class="h1">Click to
+                <div class="h11">
+                   
+                      My capability
+                </div>
+            </div>
+        </div>
+        <div class="login-r">
+            <center>
+                <div class="tsp">
+                    <h2><b>S</b>kill</h2>
+                </div>
+            </center>
+            <div class="left">
+
+                <p><b>PHP :: </b> {{PHP}} <b>7.0</b></p>
+                <p><b>HTML ::</b> {{HTML}} <b>5.0</b> </p>
+                <p><b>CSS ::</b> {{CSS}} <b>4.0</b></p>
+                <p><b>JS :: </b> {{JS}} <b>3.0</b></p>
+                <p><b>JAVA :: {{JAVA}} <b>3.0</b> </p>
+                <br>
+               
+            </div>
+        </div>
+    </div>
+</div>
+{{/with}}
+<script>let openLoginRight = document.querySelector('.h1');
+    let login = document.querySelector('.login');
+
+    openLoginRight.addEventListener('click', function () {
+        login.classList.toggle('open');
+    })</script>
