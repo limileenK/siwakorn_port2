@@ -20,9 +20,14 @@ const data = {
         "JAVA": "★★★"
     },
     "Education": {
-        "Junior": "Sarasit School",
-        "High": "Sarasit School"
+        "Junior": "Junior school : Sarasit School",
+        "High": " High school : Sarasit School",
+        "University": "Nakhon Pathom Rajabhat University"
 
+    },
+    "workexp": {
+        "work1": "Total Food Co., Ltd.",
+        "work2": "Provincial Office for Natural Resources and Environment Ratchaburi"
     }
 }
 module.exports = data;

@@ -1,15 +1,10 @@
-
-
-    {{#with myData.Aboutme}}
-   <div class="">
+{{#with myData.Education}}
+<div class="">
     <div class="login">
         <div class="login-l">
             <img src="..\pic\3.jpg" alt="" srcset="">
             <!-- <img src="..\pic\.jpg" alt="" srcset=""> -->
-            <div class="h1">Click to
-                <div class="h11">
-                    MY EDUCATION</div>
-            </div>
+
         </div>
         <div class="login-r">
             <center>
@@ -17,21 +12,23 @@
                     <h2><b>MY</b> <b>E</b>ducation </h2>
                 </div>
             </center>
+            <P></P>
             <div class="left">
+                <p><b> GRADUATED : </b></p>
 
-                
+                {{Junior}}
                 <br>
-            
+                <br>
+                {{High}}
+<BR></BR>
+                <p><b>CURRENTLY :</b></p>
+
+                {{University}}
+
+
+
             </div>
         </div>
     </div>
 </div>
-    {{/with}}
-<script>let openLoginRight = document.querySelector('.h1');
-    let login = document.querySelector('.login');
-
-    openLoginRight.addEventListener('click', function () {
-        login.classList.toggle('open');
-    })</script>
-    
-
+{{/with}}
